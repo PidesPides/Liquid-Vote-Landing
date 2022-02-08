@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #0b414d;
 }
 
 .App-logo {
@@ -7,32 +8,95 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #0b414d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: #0b414d;
+}
+
+.div-body {
+  background-color: #0b414d;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0b414d;
+  justify-content: center;
+}
+
+.header-title {
   color: white;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.offcanvas {
+  background-color: #0b414d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome {
+  min-height: 100vh;
+  background-color: #0b414d;
 }
+.welcome-title{
+  color:white;
+  text-align: center;
+  
+}
+
+.compare {
+  min-height: 100vh;
+  background-color: #0b414d;
+}
+.compare-title{
+  color:white;
+  text-align: center;
+  
+}
+
+.decide {
+  min-height: 100vh;
+  background-color: #0b414d;
+}
+.decide-title{
+  color:white;
+  text-align: center;
+  
+}
+
+.gallery {
+  min-height: 100vh;
+  background-color: #0b414d;
+}
+.gallery-title{
+  color:white;
+  text-align: center;
+  
+}
+.carousel {
+  width:auto;
+  height:auto;
+}
+
+.download {
+  min-height: 100vh;
+  background-color: #0b414d;
+}
+.download-title{
+  color:white;
+  text-align: center;
+  
+}
+
+.footer {
+  min-height: 100vh;
+  background-color: #0b414d;
+}
+
+
+
