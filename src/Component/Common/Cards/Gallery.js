@@ -49,8 +49,8 @@ class Gallery extends Component{
     }
     render(){
         return(
-            <div className="gallery">
-                <div className="gallery-title">
+            <div className="card-background">
+                <div className="title-spec">
                     <h3>Gallery</h3>
                 </div>
                 {this.carousel()}

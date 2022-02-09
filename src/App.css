@@ -35,59 +35,15 @@
   text-align: center;
 }
 
-.offcanvas {
-  background-color: #0b414d;
+#offcanvas-spec {
+  background-color: #0fded5;
 }
 
-.welcome {
+.card-background {
   min-height: 100vh;
   background-color: #0b414d;
 }
-.welcome-title{
-  color:white;
-  text-align: center;
-  
-}
-
-.compare {
-  min-height: 100vh;
-  background-color: #0b414d;
-}
-.compare-title{
-  color:white;
-  text-align: center;
-  
-}
-
-.decide {
-  min-height: 100vh;
-  background-color: #0b414d;
-}
-.decide-title{
-  color:white;
-  text-align: center;
-  
-}
-
-.gallery {
-  min-height: 100vh;
-  background-color: #0b414d;
-}
-.gallery-title{
-  color:white;
-  text-align: center;
-  
-}
-.carousel {
-  width:auto;
-  height:auto;
-}
-
-.download {
-  min-height: 100vh;
-  background-color: #0b414d;
-}
-.download-title{
+.title-spec {
   color:white;
   text-align: center;
   

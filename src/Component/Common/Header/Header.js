@@ -28,7 +28,7 @@ class Header extends Component{
             <>
             <AiOutlineMenu size={40} color={"#0fded5"} onClick={this.handleShow} />
 
-            <Offcanvas className="offcanvas" show={this.state.show} onHide={this.handleClose}>
+            <Offcanvas id="offcanvas-spec" show={this.state.show} onHide={this.handleClose}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -44,7 +44,7 @@ class Header extends Component{
 
     render(){
         return(
-            <div className="header">   
+            <div className="card-background">   
                 {this.menu()}
                 <div className="header-title">
                     <h2> Liquid Vote </h2>

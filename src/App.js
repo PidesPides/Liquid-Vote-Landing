@@ -32,6 +32,4 @@ class App extends Component{
 
 export default App;
 
-//ADDS
-//<Gallery />
-//<Downloads />
+
