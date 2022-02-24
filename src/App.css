@@ -35,18 +35,23 @@
   text-align: center;
 }
 
-#offcanvas-spec {
-  background-color: #0fded5;
+.header-background {
+  min-height: 100vh;
+  background-color: #0b414d;
+  color:white;
+ 
 }
 
 .card-background {
   min-height: 100vh;
   background-color: #0b414d;
+  color:white;
+  text-align: center;
 }
+
 .title-spec {
   color:white;
   text-align: center;
-  
 }
 
 .footer {
